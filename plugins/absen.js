@@ -24,7 +24,7 @@ ${conn.absen[id][2]}
 ${list}
 │ 
 └────
-BotolBotZ`, m, { contextInfo: { mentionedJid: absen } })
+herman Botz`, m, { contextInfo: { mentionedJid: absen } })
 }
 handler.help = ['absen']
 handler.tags = ['absen']

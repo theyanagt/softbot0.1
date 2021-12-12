@@ -44,6 +44,17 @@ Subscribe Me To Get Trial 1 Days
         m.reply(`Waalaikumsalam`)
     }
 
+// tes
+    let fak = /bot/i
+    let isF = fak.exec(m.text)
+    if (isF && !m.fromMe) {       
+        let event = `HAI KAK ${conn.getName(m.sender)} , KETIK #MENU UNTUK MEMULAI BOT`
+        let _uptime = process.uptime() * 1000
+        let uptime = clockString(_uptime)
+        let totalreg = Object.keys(global.DATABASE._data.users).length
+        conn.fakeReply(m.chat, event, '0@s.whatsapp.net', `${uptime}\nMode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}`, 'status@broadcast')
+}
+
     // backup db
     if (setting.backup) {
         if (new Date() * 1 - setting.backupDB > 1000 * 60 * 60) {
@@ -65,9 +76,7 @@ Subscribe Me To Get Trial 1 Days
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
         let totalreg = Object.keys(global.DATABASE._data.users).length
-        await this.setStatus(`Aktif Selama ${uptime}
-Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} 
-User In Database: ${totalreg} User 
+        await this.setStatus(`Aktif Selama ${uptime}\nMode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}\nUser In Database: ${totalreg} User 
 BotolBotZ`).catch(_ => _)
         setting.status = new Date() * 1
     }

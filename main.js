@@ -104,7 +104,7 @@ if (opts['test']) {
     process.send(line.trim())
   })
   conn.connect().then(() => {
- conn.sendMessage('62895320853387@c.us', 'Bot Telah Tersambung Ke Database Nathan ღ Clara', 'conversation');
+ conn.sendMessage('6283146208804@c.us', 'Bot Telah Tersambung Ke Database Herman Botz', 'conversation');
     fs.writeFileSync(authFile, JSON.stringify(conn.base64EncodedAuthInfo(), null, '\t'))
     global.timestamp.connect = new Date
   })
@@ -121,8 +121,8 @@ global.reloadHandler = function () {
     conn.off('group-participants-update', conn.onParticipantsUpdate)
     conn.off('CB:action,,call', conn.onCall)
   }
-  conn.welcome = 'Hai @user\n◪ Welcome in group:\n├─ @subject\n├─ Intro dulu\n├─ ❏ Nama: \n├─ ❏ Umur: \n├─ ❏ Asal kota: \n├─ ❏ Kelas: \n├─ ❏ Jenis kelamin: \nFOLLOW AKUN OWNER\n➣-\n➣https://youtube.com/channel/BotolBotz'
-  conn.bye = 'Selamat Tinggal @user!\nTerimakasih Telah Bergabung Di Grup\n\nKalo Balik Jangan Lupa Bawa Gorengan Buat Anggota Disini'
+  conn.welcome = 'Hai @user\nWelcome in group:\n@subject\nSubscribe yt owner\nhttps://youtube.com/channel/UCPhU6uA_3gUaEvyrFZFgJqg'
+  conn.bye = 'Byee @user!'
   conn.spromote = '@user Sekarang Admin!'
   conn.sdemote = '@user Sekarang Bukan Admin!'
   conn.handler = handler.handler

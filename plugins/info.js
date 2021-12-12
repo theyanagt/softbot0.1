@@ -3,7 +3,7 @@ let info = `
 ┏━━°❀❬ *INFO* ❭❀°━━┓
 ┃
 ┃> Bot Recoded By :
-┃• PGID
+┃• HERMAN - BOTZ
 ┃
 ┃> Bot Dibuat Dengan :
 ┃• JavaScript via NodeJS
@@ -15,12 +15,12 @@ let info = `
 ┃• RC047/Kuhong
 ┃
 ┣━━°❀❬ *DONASI* ❭❀°━━┓
-┣➥ *XL:* [0895-3208-53387]
-┣➥ *Dana:* [-]
-┣➥ *Gopay:* [0895-3208-53387]
-┣➥ *Saweria:* [https://saweria.co/botoltzy]
+┣➥ *AXIS:* [083146208804]
+┣➥ *Dana:* [083146208804]
+┣➥ *Gopay:* [083146208804]
+┣➥ *Saweria:* [https://saweria.co/HermanChanel]
 ┃ 「 *Chat OWNER* 」
-┃ > *Ingin donasi? https://wa.me/62895320853387*
+┃ > *Ingin donasi? https://wa.me/6283146208804*
 ┗━━━━━━━━━━━━━━━━
 `.trim()
 

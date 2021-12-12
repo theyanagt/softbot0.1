@@ -1,9 +1,9 @@
 global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['https://bit.ly/36cLg9x']
-global.channelYT = ['https://bit.ly/3hg3bm4'] 
-global.owner = ['62895320853387', '380944480179', '6282269595175', '628978319619']// Put your number here
-global.mods = ['62895320853387', '380944480179', '6282269595175', '628978319619'] // Want some help?
-global.partner = ['628978319619'] // Want some help?
+global.linkGC = ['https://chat.whatsapp.com/Kt69lMVe90WLBkCFcoYIyA']
+global.channelYT = ['https://youtube.com/channel/UCPhU6uA_3gUaEvyrFZFgJqg'] 
+global.owner = ['6283146208804', '628817649108', '6283146208804']// Put your number here
+global.mods = ['6283146208804', '6283146208804', '6283146208804'] // Want some help?
+global.partner = ['6283146208804', '6283146208804', '0'] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -34,8 +34,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Raku Gans'
-global.author = 'BakaBOTZ Is The Best'
+global.packname = 'Herman\nBotZ'
+global.author = 'Herman/nBotZ'
 
 global.multiplier = 69 // The higher, The harder levelup
 

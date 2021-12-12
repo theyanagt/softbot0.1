@@ -1,36 +1,21 @@
 let handler = async m => m.reply(`
-┏━━°❀❬ *PERATURAN BOT* ❭❀°━━┓
-┃
-┃> PERINGATAN :
-┃• Telpon/VC = Blok Otomatis
-┃ 
-┃> BANNED + DENDA 5K :
-┃• Spam Chat
-┃• Spam Call
-┃• Spam SMS
-┃
-┃> BANNED SEMENTARA :
-┃• Laporan Request Fitur Palsu/Main-Main
-┃• Laporan Bug Pada Fitur Palsu/Main-Main
-┃
-┃> BANNED + BLOK PERMANEN :
-┃• Merusak Nama Baik Bot
-┃• Meniru/Menyalin Teks² Pesan Pada Bot Tanpa Izin
-┃• Spam Menu Ga Jelas
-┃
-┃
-┃> Note : Jika Tidak Membayar Denda
-┃Maka Bot Akan Banned User Permanen
-┃
-┃> Jika User Membayar Denda Maka
-┃User Tidak Kena Banned Lagi
-┃
-┗━━━━━━━━━━━━━━━━
+*RULES BAGI PENGGUNA BOT*
+    
+➤ DiLarang Spam Saat Menggunakan Bot, Mentang Mentang Gratis Diborong semua.
+➤ Call/VC Bot Auto Block.
+➤ Jangan Call/VC Bot Kalau Tidak aktif.
+➤ Bot tidak selalu aktif 24 jam, jadi tergantung kalau ownernya lagi ada waktu botnya juga on.
 
-┏━━°❀❬ *DENDA* ❭❀°━━┓
-┣➥ *TSEL:* 0812-6381-7928
-┣➥ *DANA:* 0812-6381-7928
-┗━━━━━━━━━━━━━━━━
+*Konsekuensi Bila Melanggar Rules*
+Bot Akan Memblokir Kamu Atau Keluar Dari Grup Yang Kamu Kelola.
+━━━━━━━[ *PENTING!* ]━━━━━━━━
+*➤ Kami tidak pernah meminta anda untuk* berdonasi! ingin donasi chat owner
+*➤ Kami tidak menyimpan gambar, video,  audio, dan dokumen yang anda kirim*
+*➤ Kami tidak akan pernah meminta anda untukmemberikan informasi pribadi*
+*➤ Jika menemukan Bug/Error silahkan langsung lapor ke Owner bot*
+*➤  Jika kamu menelpon bot Dan di block,Owner Tidak Bertanggung Jawab*
+*➤ Apapun yang anda perintah pada bot ini , KAMI TIDAK AKAN BERTANGGUNG JAWAB*
+━━━━━━━━━━━━━━━━━━━━━━━━
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['rules'] 
 handler.tags = ['info'] 

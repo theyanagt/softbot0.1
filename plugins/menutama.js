@@ -1,6 +1,12 @@
 let { WAMessageProto, MessageType, mentionedJid } = require('@adiwajshing/baileys')
 let levelling = require('../lib/levelling')
 let PhoneNumber = require('awesome-phonenumber')
+function clockString(ms) {
+  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+  return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')
+  }
 const os = require('os')
 const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
@@ -26,40 +32,173 @@ imeg = await conn.getProfilePicture(conn.user.jid)
 imeg = 'https://telegra.ph/file/c439331e533ff281e8bda.jpg'
 }
  let buttons = [
-  {buttonId: '.menu3', buttonText: {displayText: '⋮☰ LIST MENU'}, type: 1},
-  {buttonId: '.owner', buttonText: {displayText: '⋮☰ OWNER BOT'}, type: 1},
-   {buttonId: '.alive', buttonText: {displayText: '⋮☰ INFO BOT'}, type: 1}
+  {buttonId: '.owner', buttonText: {displayText: '𝙾𝚆𝙽𝙴𝚁'}, type: 1},
+   {buttonId: '.rules', buttonText: {displayText: '𝚁𝚄𝙻𝙴𝚂'}, type: 1}
 ]
 const buttonsMessage = {
     contentText: `
     
 Halo ${conn.getName(m.sender)}
-
-
-VC & CALL BOT = BLOCK
-SPAM = BANNED + BLOCK
-
-
-Ｓｕｂｓｃｒｉｂｅ
-https://youtube.com/c/BotolBotZ
-
-Ｍｙ  Ｇｒｏｕｐ
--
-
-Ｒｅｓｔ Ａｐｉ
--
-
-Ｉｎｆｏ  Ｂｏｔ
-❏ Name : ${conn.getName(conn.user.jid)}
-❏ Web Name : ${conn.browserDescription[0]}
-❏ Browser : ${conn.browserDescription[1]}
-❏ Web Version : ${conn.browserDescription[2]}
-❏ WhatsApp Version : ${conn.user.phone.wa_version}
-❏ Phone : ${conn.user.phone.device_manufacturer}
-❏ Android Version : Android ${conn.user.phone.os_version}
-❏ Hostname Server : ${os.hostname()}
-❏ Seri Phone : ${conn.user.phone.device_model}
-`.trim(),    footerText: 'BotolBotZ' ,
+✗⃝🐲 *Bot Info*  ✗⃝🐲
+Wa Version : ${conn.user.phone.wa_version}
+Bot Number : ${conn.getName(conn.user.jid)}
+Prefix : [ Multi Prefix ]
+Youtube : https://bit.ly/3hg3bm4
+My Grup : https://bit.ly/3pAP4um
+༺═──────────────═༻
+ꪶ🐲ꫂ *EXP & LIMIT* ꪶ🐲ꫂ
+>.peti
+>.buy (jumlah limit)
+>.buyall
+>.cheat (limit)
+>.daily
+>.claim
+>.dompet
+>.gift @user (jumblah)
+>.kerja (limit)
+>.lb
+>.payext @user (amount)
+>.paylimit
+>.topmoney
+>.unreg (sn)
+>.unregister
+*Absensi Menu*
+>.absen
+>.cekabsen
+>.hapusabsen
+>.mulaiabsen (text)
+*Anime Menu*
+>.anime
+>.animelink
+>.character
+>.ppcouple
+>.husbu
+>.loli
+>.kosunime
+>.waifu
+>.wibu
+*Audio Menu*
+>.bass
+>.blown
+>.deep
+>.robot
+>.tupai
+>.tovn
+>.slow
+>.smoth
+>.fat
+*Rondom Menu*
+>.bucin
+>.bacot
+>.galau
+>.faktaunik
+>.gombal
+>.kisahnabi
+>.fakta
+>.sholawat
+>.quran
+*Kerang Menu*
+>.apakah
+>.artimimpi
+>.benarkah
+>.bisakah
+>.kapankah
+>.siapakah
+>.kapan
+*News Menu*
+>.berita
+>.news
+>.infobmkg
+>.infogempa
+*Adventure Menu*
+>.berburu
+>.mancing
+>.adventure
+>.petualangan
+>.berpetualang
+>.mulung
+>.work
+>.feed (pet type)
+>.gaji
+>.gajian
+>.inv
+>.judi (jumblah)
+>.levelup
+>.nebang
+>.nyambah
+>.open (create)
+>.gacha (create)
+>.shop (sell|buyy) (args)
+>.toko (sell|buyy) (args)
+>.slots
+>.jackpot
+>.menanam
+>.transfer
+>.tukar coin
+>.tukarall
+>.tukarxp
+>.tukarsemuah
+>.tukarmoney
+>.use
+>.heal
+*hadiah*
+>.bonus
+>.hadiah
+>.buygift
+>.freegift
+>.gift
+>.sc
+*dewasa menu*
+>.filebokep
+>.bokep
+>.indohot
+>.hentai
+>.cersex
+>.ero
+>.nekopoi
+>.yuri
+*grup menu*
+>.add 62***
+>.afk (alasan)
+>.tagall
+>.tagme
+>.linkgroup
+>.leave
+>.setpp
+>.siapa
+>.siapakah
+>.totalpesan
+*fun menu*
+>.kuis
+>.math
+>.gaycek
+>.caklontong
+>.cari
+>.family100
+>.suit
+>.tebakgambar
+>.tebakbendera
+>.tebakanime
+>.tebakkata
+>.tekateki
+>.totalcek
+*owner menu*
+>.addowner
+>.addprem
+>.balas
+>.ban
+>.bcgc
+>.bcnowm
+>.block
+>.delprem
+>.setprefix
+>.setbio
+>.ban
+>.stop
+>.setmenu
+>.premiumlist
+*FITUR SEBENERNYA MASIH BANYAK TAPI OWNER CAPE NULIS LIST MENU SEMUAH BOT NYA:V FITUR ADA 1RB+ BANTU DONASI YA BIAR OWNER SEMANGAT PULSA* 083146208804 *MAKASIH*
+`.trim(),    footerText: 'Bot Merespon Dalam 761.6472300291061 MS No Spam Pleas Herman Botz' ,
     buttons: buttons,
   imageMessage: await conn.toMSG({ url: imeg }, 'imageMessage'),
   headerType: 'IMAGE'
@@ -74,7 +213,7 @@ quoted: {
    orderMessage: {
     itemCount: Object.keys(DATABASE.data.users).length, 
 thumbnail: await (await require('node-fetch')(imeg)).buffer(),
-    message: `${ucapanWaktu} Kak`.trim(),
+    message: `Hai ${conn.getName(m.sender)}\nUptime : ${clockString(process.uptime() * 1000)}`.trim(),
     orderTitle: 'FakeTroli', // Idk what this does
     orderId: require('crypto').randomBytes(10).toString('hex').toUpperCase(), // Biar Ga ke detect bug troli
     sellerJid: '0@s.whatsapp.net' // Seller

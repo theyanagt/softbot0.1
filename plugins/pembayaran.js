@@ -5,10 +5,10 @@ let info = `
 ╠════════════════════
 ║╭───❉ *VIA* ❉─────
 ║│
-║│➸ *OVO*: 088217066706
-║│➸ *DANA*: 085855159153
-║│➸ *PULSA*:085855159230
-║│➸ *GOPAY*: 085855159230
+║│➸ *OVO*: -
+║│➸ *DANA*: 083146208804
+║│➸ *PULSA*:083146208804
+║│➸ *GOPAY*: 083146208804
 ║│
 ║╰──────────────────
 ║ Silahkan Ketik *UP*
@@ -18,11 +18,11 @@ let info = `
 ║  ▌│█║▌║▌║║▌║▌║█│▌
 ║        
 ╠════════════════════
-║ _*POWERED BY LAZUARDI*_
+║ _*POWERED BY HERMAN BOTZ*_
 ╚════════════════════
 `.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 VIGEN SHOP TERPERCAYA 🔥*', 'status@broadcast')
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 Herman Botz 🔥*', 'status@broadcast')
 }
 handler.customPrefix = /^(PEMBAYARAN)$/i
 handler.command = new RegExp

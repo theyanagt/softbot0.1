@@ -9,7 +9,7 @@ let url = heum[Math.floor(Math.random() * heum.length)]
 const buttonsMessage = {
     contentText: `
 Random Loli
-`.trim(),    footerText: 'ZERO NEXT PROJECT',
+`.trim(),    footerText: 'BotolBotZ',
     buttons: buttons,
   imageMessage: await conn.toMSG({ url }, 'imageMessage'),
     headerType: 'IMAGE'

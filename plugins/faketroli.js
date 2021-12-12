@@ -2,10 +2,10 @@ const { MessageType } = require("@adiwajshing/baileys")
 let axios = require("axios");
 let fs = require("fs");
 let handler = async(m, { conn, args, text, usedPrefix: _p }) => {
-//if(args.length == 0) return m.reply(`Cara Penggunaan: Reply Foto, Ketik *${_p}faketroli* <TextMessage> | <OrderMessage> | <OrderTitle>\nContoh: *${_p}faketroli* Hai Wibu | ZEROBOT | 10k Bang?`) 
+//if(args.length == 0) return m.reply(`Cara Penggunaan: Reply Foto, Ketik *${_p}faketroli* <TextMessage> | <OrderMessage> | <OrderTitle>\nContoh: *${_p}faketroli* Hai Wibu | HERMAN-BOTZ | 10k Bang?`) 
 	let [poop, tytyd] = text.split("|")
 	if(!poop) return m.reply("Masukkan Teks Utama")
-	if(!tytyd) tytyd = "ZEROBOT"
+	if(!tytyd) tytyd = "HERMAN BOTZ"
 	//if(!kecil) return m.reply("Masukkan Teks Title Order!")
   try{
 //let q = m.quoted ? m.quoted : m
@@ -23,7 +23,7 @@ let handler = async(m, { conn, args, text, usedPrefix: _p }) => {
                             status: 1,
                             surface : 1,
                             message: tytyd,
-                            orderTitle: "ZEROBOT",
+                            orderTitle: "HERMAN BOTZ",
                             thumbnail: fs.readFileSync("./src/logo.jpg"),
                             sellerJid: '0@s.whatsapp.net'
                         }

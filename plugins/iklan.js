@@ -1,5 +1,5 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-let info = `🔰 -----[ 「 *IKLAN BAKA BOTZ* 」 ]----- 🔰
+let info = `🔰 -----[ 「 *IKLAN HERMAN BOTZ* 」 ]----- 🔰
 
 ──────────────────────────────
 
@@ -13,7 +13,7 @@ let info = `🔰 -----[ 「 *IKLAN BAKA BOTZ* 」 ]----- 🔰
 
 ◯ *DANA*
 
-◯ *PULSA+10K*
+◯ *PULSA*
 
 ──────────────────────────────
 ◯ *KEUNTUNGAN SEWA BOT :*
@@ -39,11 +39,11 @@ let info = `🔰 -----[ 「 *IKLAN BAKA BOTZ* 」 ]----- 🔰
 
 ◯ *HARAP HUBUNGI NOMOR DIBAWAH :*
 
-◯ *wa.me/6287834993722*
+◯ *wa.me/6283146208804*
 
 ──────────────────────────────
 
-🔰 -----[「 *POWERED BY RAKUCHAN* 」]----- 🔰` 
+🔰 ---[「 *POWERED BY HERMAN CHANEL* 」]--- 🔰` 
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*BOT TERVERIFIKASI*', 'status@broadcast')
 }

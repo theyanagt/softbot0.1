@@ -2,14 +2,14 @@ const sewabot = () => {
 	return `
 *OPEN JASA SEWA BOT*
 
-Sewa Seminggu : 7k
-Sewa Sebulan : 17k
+Sewa seminggu : 10k
+Sewa Perbulan : 20k
 
 *Payment :*
 _Pulsa Dan Dana_
 
 Minat?PC
-Wa.me/62895320853387
+Wa.me/6283146208804
 `
 }
 handler.help = ['sewa']

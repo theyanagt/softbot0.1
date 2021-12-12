@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
 ]
 const buttonMessage = {
     contentText: `\n*Sepertinya Anda Sudah Kecapekan*\n*Silahkan Istirahat Dulu sekitar ${timers}*\n*Untuk bisa melanjutkan Memancing*\n`,
-    footerText: 'ZERO', 
+    footerText: 'Herman', 
     buttons: buttons,
     headerType: 1
 }
@@ -64,7 +64,7 @@ hsl = `
  *🐙 = [ ${zero5} ]*	   	 *🦈 = [ ${zero11} ]*
  *🐡 = [ ${zero6} ]*			*🐋 = [${zero12} ]*
 
- *© BotolBotZ*
+ *© Herman Botz*
 `
 global.DATABASE.data.users[m.sender].paus += rbrb1
 global.DATABASE.data.users[m.sender].kepiting += rbrb2

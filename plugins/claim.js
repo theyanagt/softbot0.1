@@ -15,7 +15,7 @@ let handler = async (m, { conn }) => {
         conn.sendMessage(m.chat, buttons, MessageType.buttonsMessage, { quoted: m })
     }
 }
-handler.help = ['claim'] 
+handler.help = ['claim', 'monthly'] 
 handler.command = /^(claim)$/i
 
 handler.fail = null
@@ -48,7 +48,7 @@ function button(teks, user) {
     
     const buttonMessage = {
         contentText: teks,
-        footerText: '©BotolBotZ',
+        footerText: '©Herman-Botz',
         buttons: buttons,
         headerType: 1
     }

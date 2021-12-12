@@ -10,7 +10,7 @@ let list = []
         "displayName": `${list.length} Contact`,
         "contacts": list 
         }, 'contactsArrayMessage', { quoted: m })
-        test.reply('Tuh Owner Ku Jangan Di Spam Kak >_<')
+        test.reply('Tuh Orang Gamteng>3')
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']

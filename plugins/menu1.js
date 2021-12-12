@@ -1,24 +1,4 @@
-/*
 
-   [] INGIN BERTANYA TANYA???
-HUBUNGI => 62895320853387
-[] ATAU SILAHKAN JOIN
-=> https://chat.whatsapp.com/ExvXgylW4LSIfGNGdg28xv
-
-[] SC ORI : NURUTOMO
-[] RECODE : RAKU
-
-❏ : "KOK SIMPLE BANGET MENU NYA"
-❏ : "YAA KAN SAYA NOOB 
-❏ : "KESIAN BADUT YANG SATU INI "
-❏ : "N4P4 G45EN4N6?? PUKUL1N 4J4 4N4K P4NT1, M4U N64DU 4M4 S14P4?? 0R4N6 7UA NY4?? CUPU LU"
-❏ : ".............."
-
-❏ : DARIPADA RIBUT BANTU ADMIN 
-YOK DENGAN CARA SUBSCRIBE
-YT ZEROBOT
- 
-*/
 let fs = require ('fs')
 const { createHash } = require('crypto') 
 let util = require('util')
@@ -36,7 +16,6 @@ let { MessageType, mentionedJid } = require('@adiwajshing/baileys')
 let handler  = async (m, { conn, usedPrefix: _p, command, args }) => {
 let neww = performance.now()
 let teks = `${args[0]}`.toLowerCase()
-await conn.fakeReply(m.chat, '*[❗] Ｌｏｄｉｎｇ．．．*', '0@s.whatsapp.net', 'Subscribe YT : BotolBotZ', 'status@broadcast')
 const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const petik = '```'
@@ -156,7 +135,7 @@ const ftroli = {
                             status: 1,
                             surface : 1,
                             message: 'Halo Bang', //Kasih namalu
-                            orderTitle: 'Subscribe YT BotolBotZ',
+                            orderTitle: 'Subscribe YT Herman Chanel',
                             thumbnail: fs.readFileSync('./src/logo.jpg'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net'
           
@@ -168,7 +147,7 @@ const fcon = {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "contactsArrayMessage": { "title":"RakuGans","h": `aloo`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "contactsArrayMessage": { "title":"HermanGans","h": `aloo`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}
 const ftextt = {
 	 key: { 
@@ -212,7 +191,7 @@ const fvideo = {
   },
   message: {
     videoMessage: {
-      title: `BotolBotz`,
+      title: `Herman - Botz`,
       h: `Hmm`,
       seconds: "99999",
       caption: `Botolbotz`,
@@ -329,7 +308,7 @@ let package = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json')
       'abs': 'Absensi Menu', 
       'xp': 'Exp & Limit',
       'rpg': 'Adventure Menu (NEW)', 
-      'tutor': 'Tutorial ZEROBOT',
+      'tutor': 'Tutorial BotolBotZ',
       'hadiah': 'Hadiah',
      ' apk': 'Apk Downloader', 
       'dewasa': '18+ Menu',
@@ -403,7 +382,7 @@ ${petik}Im ${conn.getName(conn.user.jid)} And You Use Prefix %p${petik}
 ❏ Total Features : ${petik} 1000+ ${petik} 
 
 ❏ ${petik} Join Here ${petik} 
-❏ ${petik} https://bit.ly/2VUSJIC ${petik} 
+❏ ${petik} - ${petik} 
 
 ❏ Ｉｎｆｏ Ｕｓｅｒ
 ❏ UserName : ${petik} %name ${petik} 
@@ -535,7 +514,7 @@ ${petik}Im ${conn.getName(conn.user.jid)} And You Use Prefix %p${petik}
   }
 
 }
-handler.command = ['ngab']
+handler.command = ['njay']
 handler.owner = false
 handler.mods = false
 handler.premium = false
