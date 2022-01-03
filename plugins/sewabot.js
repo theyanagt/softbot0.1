@@ -9,7 +9,7 @@ Sewa Perbulan : 20k
 _Pulsa Dan Dana_
 
 Minat?PC
-Wa.me/6283146208804
+Wa.me/6285893228346
 `
 }
 handler.help = ['sewa']

@@ -2,9 +2,9 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 let event= `
 ╭─❒ SCRIPT
 │◦➛Base : Nurotomo
-│◦➛Recode : *©Herman Botz*
+│◦➛Recode : *©Loyo Botz*
 └──────[ YOUTUBE ]──────❒
-  │◦➛Script  : https://bit.ly/3hg3bm4
+  │◦➛Script  : wa.me//6285893228346
   └──────────────────❒`
  buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'BACK➡️'}, type: 1},
@@ -12,7 +12,7 @@ let event= `
 {buttonId: `owner`, buttonText: {displayText: 'OWNER👤'}, type: 1}
 ]
 
-  conn.fakeReply(m.chat, event, '0@s.whatsapp.net', '*HERMAN BOTZ*')
+  conn.fakeReply(m.chat, event, '0@s.whatsapp.net', '*Loyo Botz*')
 }
 handler.help = ['sc']
 handler.tags = ['hadiah']

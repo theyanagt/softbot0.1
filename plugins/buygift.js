@@ -13,7 +13,7 @@ let handler = async m => m.reply(`
 │
 │ > Pembayaran :
 │• Pulsa (XL) :
-│+6287834993722
+│ INI W NGAK TAHU UNTUK APA/ JADI KU BIARIN AJA -MALING SC
 ╰────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['buygift']

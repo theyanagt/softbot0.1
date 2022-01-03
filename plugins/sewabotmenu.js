@@ -27,7 +27,7 @@ imeg = await conn.getProfilePicture(conn.user.jid)
 imeg = 'https://telegra.ph/file/91fd611c3f7ee668c2eb9.jpg'
 }
  let buttons = [
-  {buttonId: 'bot', buttonText: {displayText: 'SUBSCRIBE YT : BotolBotZ'}, type: 1},
+  {buttonId: 'bot', buttonText: {displayText: 'SUBSCRIBE YT : Bro Kenz Channel'}, type: 1},
 ]
 const buttonsMessage = {
     contentText: `*OPEN JASA SEWA BOT*
@@ -40,8 +40,8 @@ Jadi Owner Permanen 50k
 _Pulsa Dan Gopay_
 
 Minat?PC
-Wa.me/62895320853387
-`.trim(),    footerText: 'Wangsaff Botol' ,
+Wa.me/6285893228346
+`.trim(),    footerText: '©LOYOBOTZ' ,
     buttons: buttons,
   imageMessage: await conn.toMSG({ url: imeg }, 'imageMessage'),
   headerType: 'IMAGE'

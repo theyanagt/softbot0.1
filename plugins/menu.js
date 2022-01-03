@@ -1,12 +1,12 @@
 /*
 
    [❗] INGIN BERTANYA TANYA???
-HUBUNGI => 6287834993722
+HUBUNGI => 6285893228346
 [❗] ATAU SILAHKAN JOIN
 => https://chat.whatsapp.com/ExvXgylW4LSIfGNGdg28xv
 
 [❗] SC ORI : NURUTOMO
-[❗] RECODE : RAKU
+[❗] RECODE : Brokenz channel
 
 🙍‍♂️ : "KOK SIMPLE BANGET MENU NYA"
 🧕 : "YAA KAN SAYA NOOB 
@@ -16,7 +16,7 @@ HUBUNGI => 6287834993722
 
 👨‍👩‍👧‍👧 : DARIPADA RIBUT BANTU ADMIN 
 YOK DENGAN CARA SUBSCRIBE
-YT BotolBotZ
+YT Bro Kenz Channel
  
 */
 let fs = require ('fs')
@@ -342,9 +342,9 @@ Im *${conn.getName(conn.user.jid)}* And You Use Prefix *%p*
 text = text.replace(new RegExp(`%(${Object.keys(replace).join`|`})`, 'g'), (_, name) => ''+replace[name])
 
     conn.sendMessage(m.chat, '', 'conversation', { quoted: m, contextInfo: { externalAdReply :{
-mediaUrl: 'https://youtube.com/c/BotolBotZ',
+mediaUrl: 'https://youtube.com/c/BroKenzchannelOfficial',
 mediaType: 2,
-title: 'List Menu Zero',
+title: 'List Menu Bot',
 body: '',
 thumbnailUrl: 'https://i.ibb.co/Q9Wj9vh/IMG-20210817-WA0001.jpg',
 }}) 

@@ -1,5 +1,5 @@
 /*
-HERMAN CHANEL!!!
+BRO KENZ CHANEL!!!
 */
 let split = '|'
 let handler  = async (m, { conn, text, usedPrefix }) => {
@@ -23,7 +23,7 @@ let handler  = async (m, { conn, text, usedPrefix }) => {
 	    "description": `${text2}`, 
 	    "currencyCode": "IDR", 
             "priceAmount": "50000", 
-	    "retailerId": "Herman-Botz", 
+	    "retailerId": "Loyo-Botz", 
 	    "productImageCount": 1 
 	  }, 
 	  "businessOwnerJid": conn.user.jid

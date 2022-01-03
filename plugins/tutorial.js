@@ -22,9 +22,9 @@ Penginstalannya cuy :)
 [ Note : Tanda $ Ga Perlu Di Ketik ]
 
 *Nih No Owner Ku*..
-https://wa.me/62895320853387
+https://wa.me/6285893228346
 
-https://saweria.co/botoltzy
+https://saweria.co/tetek
 `.trim(), m)
 }
 handler.help = ['tutorial']

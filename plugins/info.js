@@ -3,7 +3,7 @@ let info = `
 ┏━━°❀❬ *INFO* ❭❀°━━┓
 ┃
 ┃> Bot Recoded By :
-┃• HERMAN - BOTZ
+┃• Amelia メ SOFTBOT
 ┃
 ┃> Bot Dibuat Dengan :
 ┃• JavaScript via NodeJS
@@ -15,12 +15,12 @@ let info = `
 ┃• RC047/Kuhong
 ┃
 ┣━━°❀❬ *DONASI* ❭❀°━━┓
-┣➥ *AXIS:* [083146208804]
-┣➥ *Dana:* [083146208804]
-┣➥ *Gopay:* [083146208804]
-┣➥ *Saweria:* [https://saweria.co/HermanChanel]
+┣➥ *TRI:* []
+┣➥ *PayPall:* []
+┣➥ *Gopay:* []
+┣➥ *Saweria:* []
 ┃ 「 *Chat OWNER* 」
-┃ > *Ingin donasi? https://wa.me/6283146208804*
+┃ > *Ingin donasi? https://wa.me/6289514235883*
 ┗━━━━━━━━━━━━━━━━
 `.trim()
 

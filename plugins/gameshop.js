@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
 _Harga Diamonds Free Fire_
-			*VIGEN SHOP*
+			*PUTPAY SHOP*
 			
 ⦿ 70 Diamonds = IDR 10.000
 
@@ -43,13 +43,13 @@ Tanggung Jawab Kami
 ▌│█║▌║▌║║▌║▌║█│▌▌│█║▌║▌║
 ▌│█║▌║▌║║▌║▌║█│▌▌│█║▌║▌║
              T E R P E R C A Y A
-                	       *©Ardi*
+                	       *©LoyoBotz*
              
              ᴄᴏɴᴛᴀᴄᴛ ᴘᴇʀsᴏɴ
-         wa.me/6288217066706
+         wa.me/6285893228346
 `.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 VIGEN SHOP TERPERCAYA 🔥*', 'status@broadcast')
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 PUTPAY SHOP TERPERCAYA 🔥*', 'status@broadcast')
 }
 handler.customPrefix = /^(LIST TOP UP)$/i
 handler.command = new RegExp

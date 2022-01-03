@@ -16,8 +16,8 @@ let info = `
 │• 50K / VIP (Permanen)
 │
 │ > Pembayaran :
-│• DANA :083146208804
-│• AXIS : 083146208804
+│• DANA :085893228346
+│• INDOSAT : 085893228346
 ╰────
 `.trim()
 

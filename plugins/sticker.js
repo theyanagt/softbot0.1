@@ -9,8 +9,8 @@ try {
     if (/image|video/.test(mime)) {
       let img = await q.download()
       if (!img) throw 'Reply stiker nya!'
-      stiker = await sticker(img, false, 'Herman Botzz\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYahaha', require('awesome-phonenumber')('DRABOTZ\n0895704286848'). getNumber('international'))
-    } else if (args[0]) stiker = await sticker(false, args[0], 'Herman Botz\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYahaha', require('awesome-phonenumber')('DRABOTZ\n0895704286848'). getNumber('international'))
+      stiker = await sticker(img, false, 'HermanChanel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYahaha', require('awesome-phonenumber')('Herman\n083146208804'). getNumber('international'))
+    } else if (args[0]) stiker = await sticker(false, args[0], 'HermanBotz\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYahaha', require('awesome-phonenumber')('Herman\n083146208804'). getNumber('international'))
   } finally {
     if (stiker) conn.sendMessage(m.chat, stiker, MessageType.sticker, {
       quoted: m

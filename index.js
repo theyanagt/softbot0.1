@@ -4,12 +4,12 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('Herman Botz\nWhatsApp Bot', {
+CFonts.say('ArekN882\nWhatsApp Bot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`Subscribe Herman Chanel`, {
+CFonts.say(`ArekNongkokerep`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']

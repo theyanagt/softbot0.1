@@ -1,13 +1,15 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-let info = `🔰 -----[ 「 *IKLAN HERMAN BOTZ* 」 ]----- 🔰
+let info = `🔰 -----[ 「 *IKLAN LOLIHUNTERID* 」 ]----- 🔰
 
 ──────────────────────────────
 
-◯ *DAFTAR SEWA & BUAT BOT :*
+◯ *DAFTAR PREMIUM & BUAT BOT :*
 
-◯ *SEWA : 25K/GRUP (BULAN)*
+◯ *PREMIUM : 5K / BLN*
 
-◯ *BUAT : 100K (BISA JADI OWNER)*
+◯ *BUAT : 10K (BISA JADI OWNER, MAX OWNER UNLIMITED, RECODE SESUKANYA)*
+
+◯ *JADI BOT : FREE 24/7 (BISA REQ OWNER MAX 3 ORANG) S&K BERLAKU HUB 089514235883*
 
 ◯ *PEMBAYARAN BISA MELALUI :*
 
@@ -16,12 +18,12 @@ let info = `🔰 -----[ 「 *IKLAN HERMAN BOTZ* 」 ]----- 🔰
 ◯ *PULSA*
 
 ──────────────────────────────
-◯ *KEUNTUNGAN SEWA BOT :*
+◯ *KEUNTUNGAN PREMIUM :*
 
 ◯ *1. BISA MEMASUKAN BOT KE GROUP*
 
 ◯ *2. BISA MENGGUNAKAN FITUR PREMIUM*
-
+──────────────────────────────
 ◯ *KEUNTUNGAN BUAT BOT :*
 
 ◯ *1. BISA MENJADI OWNER BOT SENDIRI*
@@ -33,17 +35,15 @@ let info = `🔰 -----[ 「 *IKLAN HERMAN BOTZ* 」 ]----- 🔰
 ◯ *4. BISA MENGGUNAKAN COMMAND OWNER*
 
 ◯ *5. BISA MENYEWAKAN BOT KEMBALI*
-
 ──────────────────────────────
 ◯ *JIKA MINAT IKLAN DIATAS*
 
 ◯ *HARAP HUBUNGI NOMOR DIBAWAH :*
 
-◯ *wa.me/6283146208804*
-
+◯ *wa.me/6289514235883*
 ──────────────────────────────
 
-🔰 ---[「 *POWERED BY HERMAN CHANEL* 」]--- 🔰` 
+🔰 ---[「 *POWERED BY ZAHRA メ SOFTLOLI* 」]--- 🔰` 
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*BOT TERVERIFIKASI*', 'status@broadcast')
 }

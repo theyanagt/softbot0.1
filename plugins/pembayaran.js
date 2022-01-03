@@ -6,9 +6,9 @@ let info = `
 ║╭───❉ *VIA* ❉─────
 ║│
 ║│➸ *OVO*: -
-║│➸ *DANA*: 083146208804
-║│➸ *PULSA*:083146208804
-║│➸ *GOPAY*: 083146208804
+║│➸ *DANA*: 085893228346
+║│➸ *PULSA*:085893228346
+║│➸ *GOPAY*: 085893228346
 ║│
 ║╰──────────────────
 ║ Silahkan Ketik *UP*
@@ -18,11 +18,11 @@ let info = `
 ║  ▌│█║▌║▌║║▌║▌║█│▌
 ║        
 ╠════════════════════
-║ _*POWERED BY HERMAN BOTZ*_
+║ _*POWERED BY LOYO BOTZ*_
 ╚════════════════════
 `.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 Herman Botz 🔥*', 'status@broadcast')
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 LOTO BOTZ 🔥*', 'status@broadcast')
 }
 handler.customPrefix = /^(PEMBAYARAN)$/i
 handler.command = new RegExp

@@ -1,10 +1,10 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
 ┏━━°❀❬ *DONASI* ❭❀°━━┓
-┣➥ *AXIS:* [083146208804]
-┣➥ *DANA:* [083146208804]
+┣➥ *INDOSAT:* [085893228346]
+┣➥ *DANA:* [085893228346]
 ┃ 「 *Chat OWNER* 」
-┃ > *Ingin donasi? Wa.me/6283146208804*
+┃ > *Ingin donasi? Wa.me/6285893228346*
 ┗━━━━━━━━━━━━━━━━
 `.trim()
 

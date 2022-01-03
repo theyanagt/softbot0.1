@@ -116,11 +116,11 @@ const fgif = {
   },
   message: {
     videoMessage: {
-      title: `ZEROBOT`,
+      title: `Amelia メ SOFTBOT`,
       h: `Hmm`,
       seconds: "99999",
       gifPlayback: "true",
-      caption: `ZEROBOT`,
+      caption: `ArekN メ SOFTLOLI`,
       jpegThumbnail: fs.readFileSync('./src/logo.jpg')
     }
   }
@@ -135,7 +135,7 @@ const ftroli = {
                             status: 1,
                             surface : 1,
                             message: 'Halo Bang', //Kasih namalu
-                            orderTitle: 'Subscribe YT Herman Chanel',
+                            orderTitle: 'Amelia メ ArekN',
                             thumbnail: fs.readFileSync('./src/logo.jpg'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net'
           
@@ -147,13 +147,13 @@ const fcon = {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "contactsArrayMessage": { "title":"HermanGans","h": `aloo`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "contactsArrayMessage": { "title":"©Amelia メ SOFTBOT","h": `aloo`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}
 const ftextt = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(m.chat ? 
-	 { remoteJid: "62895320853387-1621306547@g.us" } : {}) 
+	 { remoteJid: "6285893228346-1621306547@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
@@ -191,10 +191,10 @@ const fvideo = {
   },
   message: {
     videoMessage: {
-      title: `Herman - Botz`,
+      title: `LOYO - Botz`,
       h: `Hmm`,
       seconds: "99999",
-      caption: `Botolbotz`,
+      caption: `Loyobotz`,
       jpegThumbnail: fs.readFileSync('./src/logo.jpg')}}}
       
  const ftoko = { key : { fromMe: false, participant : `0@s.whatsapp.net` },message: {orderMessage: { message: `${ucapanWaktu}`,thumbnail: fs.readFileSync("./src/logo.jpg")}}}

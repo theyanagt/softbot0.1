@@ -14,8 +14,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'BotolBotZ' : banned ? 'TELAH DI BANNED' : 'BotolBotZ',
-                '©BotolTzy',
+                isBanned ? '©LoyoBotZ' : banned ? 'TELAH DI BANNED' : '©LoyoBotZ',
+                '©LoyoBotZ',
                 isBanned ? 'UNBAN' : banned ? 'BAN' : 'MENU',
                 isBanned ? '.unbanchat' : banned ? '.banchat' : '.menu',
                 m.isGroup ? 'BAN' : isBanned ? 'UNBAN' : 'MENU',
@@ -31,10 +31,10 @@ handler.all = async function (m, { isBlocked }) {
 7 Hari / Rp 7.000
 30 Hari / Rp 15.000
 └────
-https://youtube.com/c/
+https://youtube.com/c/BroKenzchannelOfficial
 Subscribe Me To Get Trial 1 Days
 
-`.trim(), '© BotolBotZ', 'CHAT ME TO BUY', ',owner', { contextInfo: { mentionedJid: [global.owner[0] + '@s.whatsapp.net'] } })
+`.trim(), '©LoyoBotz', 'CHAT ME TO BUY', ',owner', { contextInfo: { mentionedJid: [global.owner[0] + '@s.whatsapp.net'] } })
     }
 
     // salam

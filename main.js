@@ -60,8 +60,8 @@ if (opts['server']) require('./server')(global.conn, PORT)
 
 if (opts['test']) {
   conn.user = {
-    jid: '2219191@s.whatsapp.net',
-    name: 'test',
+    jid: '9999999999999@s.whatsapp.net',
+    name: 'whatsapp',
     phone: {}
   }
   conn.prepareMessageMedia = (buffer, mediaType, options = {}) => {
@@ -104,7 +104,7 @@ if (opts['test']) {
     process.send(line.trim())
   })
   conn.connect().then(() => {
- conn.sendMessage('6283146208804@c.us', 'Bot Telah Tersambung Ke Database Herman Botz', 'conversation');
+ conn.sendMessage('6289514235883@c.us', 'Bot Telah Tersambung Ke Database', 'conversation');
     fs.writeFileSync(authFile, JSON.stringify(conn.base64EncodedAuthInfo(), null, '\t'))
     global.timestamp.connect = new Date
   })
@@ -121,7 +121,7 @@ global.reloadHandler = function () {
     conn.off('group-participants-update', conn.onParticipantsUpdate)
     conn.off('CB:action,,call', conn.onCall)
   }
-  conn.welcome = 'Hai @user\nWelcome in group:\n@subject\nSubscribe yt owner\nhttps://youtube.com/channel/UCPhU6uA_3gUaEvyrFZFgJqg'
+  conn.welcome = 'Hai @user\nWelcome in group:\n@subject\nSubscribe yt owner\nhttps://www.youtube.com/channel/UCgNS1UqJjPhmViF6TMfE8Ag'
   conn.bye = 'Byee @user!'
   conn.spromote = '@user Sekarang Admin!'
   conn.sdemote = '@user Sekarang Bukan Admin!'

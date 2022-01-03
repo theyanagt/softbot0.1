@@ -631,7 +631,7 @@ const ftroli = {key : {participant : '0@s.whatsapp.net'}, message: {orderMessage
 let eek = fs.readFileSync('./src/logo.jpg')
 
 let msg = {
-  unreg: '\n*Herman Botz*'
+  unreg: '\n*Loyo Botz*'
 }
   this.sendButton(m.chat, `
 KAMU BELUM TERDAFTAR DI DATABASE 

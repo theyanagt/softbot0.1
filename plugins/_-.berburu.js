@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
 ]
 const buttonMessage = {
     contentText: `\n*Sepertinya Anda Sudah Kecapekan*\n*Silahkan Istirahat dulu sekitar ${timers}*\n*Untuk bisa melanjutkan berburu*\n`,
-    footerText: 'Herman Botz', 
+    footerText: '©LoyoBotz', 
     buttons: buttons,
     headerType: 1
 }

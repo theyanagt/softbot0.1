@@ -29,7 +29,7 @@ let handler = async (m, { conn, text }) => {
 try {
 imeg = await conn.getProfilePicture(conn.user.jid)
 } catch {
-imeg = 'https://telegra.ph/file/c439331e533ff281e8bda.jpg'
+imeg = 'https://telegra.ph/file/c52c310af089f0b83a00e.jpg'
 }
  let buttons = [
   {buttonId: '.owner', buttonText: {displayText: '𝙾𝚆𝙽𝙴𝚁'}, type: 1},
@@ -43,7 +43,7 @@ Halo ${conn.getName(m.sender)}
 Wa Version : ${conn.user.phone.wa_version}
 Bot Number : ${conn.getName(conn.user.jid)}
 Prefix : [ Multi Prefix ]
-Youtube : https://bit.ly/3hg3bm4
+Youtube : https://youtube.com/c/BroKenzchannelOfficial
 My Grup : https://bit.ly/3pAP4um
 ༺═──────────────═༻
 ꪶ🐲ꫂ *EXP & LIMIT* ꪶ🐲ꫂ
@@ -197,8 +197,10 @@ My Grup : https://bit.ly/3pAP4um
 >.stop
 >.setmenu
 >.premiumlist
-*FITUR SEBENERNYA MASIH BANYAK TAPI OWNER CAPE NULIS LIST MENU SEMUAH BOT NYA:V FITUR ADA 1RB+ BANTU DONASI YA BIAR OWNER SEMANGAT PULSA* 083146208804 *MAKASIH*
-`.trim(),    footerText: 'Bot Merespon Dalam 761.6472300291061 MS No Spam Pleas Herman Botz' ,
+*FITUR SEBENERNYA MASIH BANYAK TAPI OWNER CAPE NULIS LIST MENU SEMUAH BOT NYA:V FITUR ADA 1RB+ BANTU DONASI YA BIAR OWNER SEMANGAT PULSA* 089514235883 *MAKASIH*
+*INFO PENTING : SC BOT BARU DI RECODE 10% ADA BEBERAPA PREMIUM DAN LIMIT YG BELUM DI RECODE, DAN ADA NAMA NAMA ORANG RANDOM YANG BELUM KU HAPUS, SEBAGIAN UNTUK MENGHARGAI YANG BUAT FITUR*
+*NEMU BUG DI FITUR? ATAU KENA LIMIT? HUB 089514235883 / .OWNER*
+`.trim(),    footerText: 'Bot Merespon Dalam 761.6472300291061 MS No Spam Please Amelia メ SOFTBOT' ,
     buttons: buttons,
   imageMessage: await conn.toMSG({ url: imeg }, 'imageMessage'),
   headerType: 'IMAGE'
